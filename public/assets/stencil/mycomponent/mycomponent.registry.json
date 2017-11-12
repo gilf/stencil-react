@@ -1,0 +1,50 @@
+{
+  "namespace": "mycomponent",
+  "components": [
+    [
+      "collapsible-panel",
+      "efdhl9s6",
+      1,
+      [
+        [
+          "collapsed",
+          5
+        ],
+        [
+          "title",
+          1,
+          1,
+          2
+        ],
+        [
+          "toggle",
+          6
+        ]
+      ],
+      1,
+      1
+    ],
+    [
+      "my-component",
+      "4xn2itol",
+      1,
+      [
+        [
+          "first",
+          1,
+          1,
+          2
+        ],
+        [
+          "last",
+          1,
+          1,
+          2
+        ]
+      ]
+    ]
+  ],
+  "loader": "../mycomponent.js",
+  "core": "mycomponent.heh4wfcq.js",
+  "corePolyfilled": "mycomponent.ehuevts8.pf.js"
+}

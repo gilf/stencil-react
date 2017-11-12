@@ -1,0 +1,4 @@
+/*! Built with http://stenciljs.com */
+
+mycomponent.loadStyles("collapsible-panel","[data-collapsible-panel-host]{display:block;border:black dashed 1px}#header[data-collapsible-panel]{background:blue;color:white;cursor:pointer;padding:2px}\ncollapsible-panel.hydrated{visibility:inherit}");
+mycomponent.loadComponents("efdhl9s6",function(t,l,n,e,o){"use strict";var i=function(){function t(){}return t.prototype.toggle=function(){this.collapsed=!this.collapsed},t.prototype.render=function(){return l("div",null,l("div",{id:"header",onClick:this.toggle.bind(this)},l("span",null,this.title)),l("div",{id:"content",hidden:this.collapsed},l("slot",null)))},t}();t["collapsible-panel"]=i},["collapsible-panel",[["collapsed",5,0,1],["title",1,1,2],["toggle",6,0,1]],{}]);;
